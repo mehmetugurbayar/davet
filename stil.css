@@ -1,0 +1,16 @@
+:root { --zemin: #F8F7F4; --kart: #FFFFFF; --cizgi: #EAE6DF; --zumrut: #0D3B2E; --altin: #C89D54; --metin: #1C2526; --soluk: #6E7A78; }
+@media (prefers-color-scheme: dark) {
+  :root { --zemin: #0A1412; --kart: #12211E; --cizgi: #1E332E; --zumrut: #D4AF6A; --altin: #D4AF6A; --metin: #F2EFE9; --soluk: #8FA39E; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--zemin); color: var(--metin); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { margin-bottom: 24px; }
+.marka { font: 700 36px/1 "Cormorant Garamond", Georgia, serif; color: var(--zumrut); text-decoration: none; }
+.marka span { color: var(--altin); }
+section { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 20px; padding: 24px; margin-bottom: 20px; }
+h1 { font: 700 28px/1.2 Georgia, serif; margin: 0 0 8px; color: var(--zumrut); }
+h2 { font-size: 17px; margin: 24px 0 6px; }
+p { margin: 0 0 12px; }
+.tarih { color: var(--soluk); font-size: 14px; }
+a { color: var(--zumrut); }
